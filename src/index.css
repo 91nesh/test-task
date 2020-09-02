@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.custom-modal .image.content {
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+.custom-modal .description {
+  padding-left: 0 !important;
+  text-align: center;
+}
+.custom-modal .description .m-0 {
+  margin-bottom: 0;
+}
+.custom-modal .description h4 {
+  margin-bottom: 0;
+line-height: 30px;
+}

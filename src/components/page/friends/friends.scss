@@ -1,0 +1,11 @@
+.ui.segment{
+    .card-person {
+        margin: 0 10px;
+        @media screen and (max-width: 576px) {
+            width: 100%;
+            display: flex;
+            justify-content: center;    
+            margin: 10px;                                                                                                            
+        }
+    }  
+} 

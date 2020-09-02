@@ -1,0 +1,55 @@
+.ui.segment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    .card-wrap {  
+        margin: 0 10px 15px;
+        @media screen and (max-width:767px){
+            margin: 15px auto;
+            display: flex;
+            justify-content: center;
+        }
+        @media screen and (max-width:576px){
+            width: 100%;
+            margin: 15px auto;
+            display: flex;
+            justify-content: center;
+        }
+        .ui.card {
+            .content  {
+                overflow: auto;
+                height: 220px;
+                .description {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin: 5px 0;
+                }
+                .meta {
+                    color: #333;
+                    font-size: 14px;
+                    margin-top: 3px;
+                }
+            }
+
+             .image {
+                min-height: 280px;
+                object-fit: cover;
+                overflow: hidden;
+                max-height: 280px;
+                margin: 10px auto;
+                display: flex;
+                align-items: center;
+                img { 
+                    max-width: 100%;
+                    width: auto;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 992px) {
+        justify-content: center;
+        width: 100%;                    
+    }
+}
